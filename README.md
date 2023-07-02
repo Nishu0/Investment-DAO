@@ -1,100 +1,26 @@
-near-blank-project
-==================
+# Investment-DAO
 
-This app was initialized with [create-near-app]
+## Inspiration: 💡
+Our inspiration for creating the Investment DAO was to provide a decentralized and community-driven platform for investment opportunities. We wanted to leverage the power of blockchain technology, specifically the Near Protocol, to enable individuals to pool their resources and make collective investment decisions. By harnessing the wisdom and diverse perspectives of the community, we aimed to create a more inclusive and transparent investment ecosystem.
 
+## What it does: 🏦💻
+The Investment DAO, built on Near Protocol, is a platform that allows users to collaboratively invest in various opportunities. It provides a range of features, including proposal creation, anonymous voting, and the potential for good returns. Users can participate by investing as little as $10 to $5000 dollars, making it accessible to a wide range of individuals. Through the DAO, users can create investment proposals, discuss them with the community, and vote on the ones they find promising. The DAO then allocates funds to the approved investments, and participants can track the performance of their investments over time.
 
-Quick Start
-===========
+## How we built it: 🛠️
+We built the Investment DAO using a stack of technologies including React, TailwindCSS, and webassembly smart contracts. React was used to develop the frontend user interface, allowing for a dynamic and responsive experience. TailwindCSS was leveraged for efficient styling and layout management, ensuring a visually appealing and consistent design. For the smart contracts, we utilized webassembly to implement the investment logic on the Near Protocol blockchain. This allowed for secure and decentralized execution of investment proposals and fund management.
 
-If you haven't installed dependencies during setup:
+## Architecture: 🧱
 
-    npm install
+![Investment DAO Architecture](https://github.com/Nishu0/Investment-DAO/assets/89217455/046b8e95-910c-4e9f-bbb6-b8001c7d703e)
 
+## Challenges we ran into: 🚧🔴
+During the development process, we encountered several challenges. Integrating the Near Protocol blockchain with the frontend components and ensuring seamless communication between them required careful coordination and understanding of both technologies. We also faced complexities in implementing the anonymous voting feature while maintaining the integrity and security of the voting process. Additionally, optimizing the user experience and ensuring a smooth flow of information between the frontend and the blockchain posed its own set of challenges.
 
-Build and deploy your contract to TestNet with a temporary dev account:
+## Accomplishments that we're proud of: 🏆✨
+We are proud to have successfully created an Investment DAO on the Near Protocol blockchain. The seamless integration of React, TailwindCSS, and web assembly smart contracts has resulted in a user-friendly and visually appealing platform. The implementation of proposal creation, anonymous voting, and investment tracking features showcases the power of decentralized decision-making and community collaboration. Additionally, providing flexibility for small investments allows for broader participation and democratizes the investment process.
 
-    npm run deploy
+##  What we learned: 📚🧠
+During the development of the Investment DAO, we gained valuable insights into integrating blockchain technology, particularly the Near Protocol, with frontend frameworks like React. We learned about the challenges and considerations involved in designing and implementing decentralized governance mechanisms, such as anonymous voting. Additionally, we deepened our understanding of smart contract development using web assembly and the importance of secure and transparent investment tracking.
 
-Test your contract:
-
-    npm test
-
-If you have a frontend, run `npm start`. This will run a dev server.
-
-
-Exploring The Code
-==================
-
-1. The smart-contract code lives in the `/contract` folder. See the README there for
-   more info. In blockchain apps the smart contract is the "backend" of your app.
-2. The frontend code lives in the `/frontend` folder. `/frontend/index.html` is a great
-   place to start exploring. Note that it loads in `/frontend/index.js`,
-   this is your entrypoint to learn how the frontend connects to the NEAR blockchain.
-3. Test your contract: `npm test`, this will run the tests in `integration-tests` directory.
-
-
-Deploy
-======
-
-Every smart contract in NEAR has its [own associated account][NEAR accounts]. 
-When you run `npm run deploy`, your smart contract gets deployed to the live NEAR TestNet with a temporary dev account.
-When you're ready to make it permanent, here's how:
-
-
-Step 0: Install near-cli (optional)
--------------------------------------
-
-[near-cli] is a command line interface (CLI) for interacting with the NEAR blockchain. It was installed to the local `node_modules` folder when you ran `npm install`, but for best ergonomics you may want to install it globally:
-
-    npm install --global near-cli
-
-Or, if you'd rather use the locally-installed version, you can prefix all `near` commands with `npx`
-
-Ensure that it's installed with `near --version` (or `npx near --version`)
-
-
-Step 1: Create an account for the contract
-------------------------------------------
-
-Each account on NEAR can have at most one contract deployed to it. If you've already created an account such as `your-name.testnet`, you can deploy your contract to `near-blank-project.your-name.testnet`. Assuming you've already created an account on [NEAR Wallet], here's how to create `near-blank-project.your-name.testnet`:
-
-1. Authorize NEAR CLI, following the commands it gives you:
-
-      near login
-
-2. Create a subaccount (replace `YOUR-NAME` below with your actual account name):
-
-      near create-account near-blank-project.YOUR-NAME.testnet --masterAccount YOUR-NAME.testnet
-
-Step 2: deploy the contract
----------------------------
-
-Use the CLI to deploy the contract to TestNet with your account ID.
-Replace `PATH_TO_WASM_FILE` with the `wasm` that was generated in `contract` build directory.
-
-    near deploy --accountId near-blank-project.YOUR-NAME.testnet --wasmFile PATH_TO_WASM_FILE
-
-
-Step 3: set contract name in your frontend code
------------------------------------------------
-
-Modify the line in `src/config.js` that sets the account name of the contract. Set it to the account id you used above.
-
-    const CONTRACT_NAME = process.env.CONTRACT_NAME || 'near-blank-project.YOUR-NAME.testnet'
-
-
-
-Troubleshooting
-===============
-
-On Windows, if you're seeing an error containing `EPERM` it may be related to spaces in your path. Please see [this issue](https://github.com/zkat/npx/issues/209) for more details.
-
-
-  [create-near-app]: https://github.com/near/create-near-app
-  [Node.js]: https://nodejs.org/en/download/package-manager/
-  [jest]: https://jestjs.io/
-  [NEAR accounts]: https://docs.near.org/concepts/basics/account
-  [NEAR Wallet]: https://wallet.testnet.near.org/
-  [near-cli]: https://github.com/near/near-cli
-  [gh-pages]: https://github.com/tschaub/gh-pages
+##  What's next for Investment DAO: 🚀🔮
+Looking ahead, we have exciting plans for the future of the Investment DAO. We aim to expand the range of investment opportunities available on the platform, including exploring partnerships with other blockchain projects and integrating additional asset classes. We also intend to enhance the user experience by incorporating data analytics and visualizations to provide comprehensive investment insights. Furthermore, we plan to scale the DAO by attracting more participants and diversifying the community to foster even greater collective intelligence in investment decision-making.
