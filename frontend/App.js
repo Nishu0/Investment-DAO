@@ -1,6 +1,8 @@
 import 'regenerator-runtime/runtime';
 import React from 'react';
 
+import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from './components'
+
 import './assets/global.css';
 
 import { EducationalText, SignInPrompt, SignOutButton } from './ui-components';
@@ -25,6 +27,7 @@ export default function App({ isSignedIn, contractId, wallet }) {
   /// If user not signed-in with wallet - show prompt
   if (!isSignedIn) {
     // Sign-in flow will reload the page later
+    
     return <SignInPrompt greeting={valueFromBlockchain} onClick={() => wallet.signIn()}/>;
   }
 
@@ -49,6 +52,7 @@ export default function App({ isSignedIn, contractId, wallet }) {
 
   return (
     <>
+    <Navbar />
       <SignOutButton accountId={wallet.accountId} onClick={() => wallet.signOut()}/>
       <main className={uiPleaseWait ? 'please-wait' : ''}>
         <h1>
@@ -68,7 +72,7 @@ export default function App({ isSignedIn, contractId, wallet }) {
             </button>
           </div>
         </form>
-        <EducationalText/>
+        <Footer />
       </main>
     </>
   );
