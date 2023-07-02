@@ -23,13 +23,10 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we’ll handle
-          the money.
+        Small Investment, <br className="sm:block hidden" /> Threshold
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+        The DAO welcomes investors with a low barrier to entry, allowing anyone to invest as little as $10 to $5000. This inclusivity ensures that individuals with limited capital can still participate and benefit from the investment opportunities offered by the DAO.
         </p>
 
         <Button styles="mt-10" />

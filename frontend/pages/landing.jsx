@@ -1,6 +1,6 @@
 import styles from './style'
 
-import { Navbar, Hero, Stats, CardDeal, Clients, CTA} from '../components'
+import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from '../components'
 
 const App = () => {
   return (

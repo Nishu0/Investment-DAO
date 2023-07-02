@@ -37,7 +37,7 @@ window.onload = async () => {
       element: <LandingPage />,
     },
     {
-      path: "/app",
+      path: "/proposal",
       element: <App isSignedIn={isSignedIn} contractId={CONTRACT_ADDRESS} wallet={wallet} />,
     },
   ]);

@@ -1,11 +1,15 @@
+import near from "./near_comp.png"
+import storage from "./ipfs_comp.png"
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
+import web3 from "./web3_comp.png"
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
+import rocket from "./rocket.png";
 import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -25,8 +29,11 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  near,
+  storage,
   airbnb,
   bill,
+  web3,
   binance,
   card,
   coinbase,
@@ -34,6 +41,7 @@ export {
   logo,
   quotes,
   robot,
+  rocket,
   send,
   shield,
   star,

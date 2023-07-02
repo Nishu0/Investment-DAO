@@ -1,9 +1,10 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, near, storage, airbnb, web3, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
+    src: "/",
   },
   {
     id: "features",
@@ -25,7 +26,7 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "DAO members enjoy investment rewards, sharing in the profits of successful ventures.",
   },
   {
     id: "feature-2",
@@ -37,9 +38,9 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Fast Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "With NEAR protocol, experience seamless and rapid transfers, making transactions effortless and efficient.",
   },
 ];
 
@@ -47,15 +48,15 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I appreciate the accessibility of the Investment DAO, allowing me to invest with as little as $10. It opens up opportunities for individuals with different investment capacities.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Developer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Investing made easy! Love the fast and seamless transactions on the NEAR protocol.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -63,9 +64,9 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "The transparency and decentralized approach make investing with this DAO a game-changer!",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "DAO Member",
     img: people03,
   },
 ];
@@ -84,7 +85,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "$230K+",
   },
 ];
 
@@ -180,18 +181,10 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
+    logo: near,
   },
   {
     id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    logo: storage,
   },
 ];

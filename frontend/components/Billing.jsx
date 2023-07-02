@@ -15,13 +15,14 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
+        Easily deposit your <br className="sm:block hidden" /> money &
         invoicing.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+      Deposit funds effortlessly into your NEAR wallet, simplifying the process of securely storing your money.
       </p>
+
+      
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img src={apple} alt="apple_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />
